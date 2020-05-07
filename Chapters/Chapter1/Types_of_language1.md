@@ -4,7 +4,7 @@
 **Declarative programming is when you say what you want<br>Imperative language is when you say how to get what you want.**
 
 for example:
-```
+```python
 # Declarative
 small_nums = [x for x in range(20) if x < 5]
 
