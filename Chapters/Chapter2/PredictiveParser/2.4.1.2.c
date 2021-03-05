@@ -1,5 +1,4 @@
-/*
-   Compile with:
+/* Compile with:
      gcc -Wall -o parser 2.4.1.2.c
    Run: ./parser
 
