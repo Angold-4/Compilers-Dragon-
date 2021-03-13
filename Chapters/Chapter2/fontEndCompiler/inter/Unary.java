@@ -3,7 +3,7 @@ import lexer.*;
 import symbols.*;
 public class Unary extends Op {
     public Expr expr;
-    public Unary(Token tok, Expe x) {
+    public Unary(Token tok, Expr x) {
         super(tok, null);
         expr = x;
         type = Type.max(Type.Int, expr.type);

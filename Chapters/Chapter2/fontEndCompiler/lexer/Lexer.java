@@ -75,7 +75,7 @@ public class Lexer {
             String s = b.toString();
             Word w = (Word)words.get(s);
             if( w != null ) return w;
-            w = new Word(s, Tag.ID);
+            w = new Word(s, Tag.ID);   // is an ID
             words.put(s, w);
             return w;
         }
